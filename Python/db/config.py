@@ -3,12 +3,12 @@ from sqlalchemy import Identity, String, Column, Numeric, Date, ForeignKey
 from sqlalchemy.orm import sessionmaker, relationship
 # import cx_Oracle
 
-username = 'rm96505'
-password = '290803'
-server = 'oracle.fiap.com.br'
-port = '1521'
-dbname = 'ORCL'
-oracle_client_path = 'C:\\Users\\Usuario\\Downloads\\sqldeveloper\\instantclient_21_9'
+username = ''
+password = ''
+server = ''
+port = ''
+dbname = ''
+oracle_client_path = ''
 # oracle_client_path = 'C:\\Users\\logonrmlocal\\Downloads\\instantclient_21_10'
 
 engine = sqlalchemy.create_engine(f"oracle+cx_oracle://{username}:{password}@{server}:{port}/{dbname}?"
