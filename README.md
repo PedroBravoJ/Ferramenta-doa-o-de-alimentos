@@ -1,0 +1,1 @@
+Para testar o projeto, é necessário acessar o arquivo 'config.py' presente na pasta 'db', e preencher os dados de conexâo ao banco de dados Oracle com suas informações (username, password, server, port, dbname e oracle_client_path).
